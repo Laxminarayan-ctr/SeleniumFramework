@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+
+
+
+	<groups>
+		<run>
+			<include name="Purchase"></include>
+
+		</run>
+
+
+	</groups>
+	
+	<listeners>
+	<listener class-name="Hapana.TestComponent.Listeners"></listener>
+	</listeners>
+	
+		
+
+
+
+	<test thread-count="5" name="SubMitOrderTest">
+		<classes>
+			<class name="Hapana.Tests.SubmitOrderTest" />
+
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Error Validation Test">
+		<classes>
+			<class name="Hapana.Tests.ErrorValidations" />
+
+		</classes>
+	</test>
+</suite>

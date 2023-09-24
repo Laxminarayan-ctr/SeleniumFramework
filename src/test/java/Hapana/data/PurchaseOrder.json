@@ -1,0 +1,12 @@
+[
+	{
+		"email" : "laxmiauto@test.com",
+		"password" : "Admin@123",
+		"productName" : "ADIDAS ORIGINAL"
+	},
+	{
+		"email" : "laxmiauto1@test.com",
+		"password" : "Admin@123",
+		"productName" : "ADIDAS ORIGINAL"
+	}
+]
